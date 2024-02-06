@@ -1,5 +1,5 @@
 
-import Task2
+import Task_2
 import unittest
 from io import StringIO
 from unittest.mock import patch
@@ -14,8 +14,8 @@ class TestMainFunction(unittest.TestCase):
         with patch('builtins.input', side_effect=lambda _: input_values.pop(0)):
             if expected_output is not None:
                 with patch('sys.stdout', new_callable=StringIO) as mock_stdout:
-                    Task2.main()
+                    Task_2.main()
                 self.assertEqual(mock_stdout.getvalue(), expected_output)
             else:
                 with self.assertRaises(ValueError):
-                    Task2.main()
+                    Task_2.main()
