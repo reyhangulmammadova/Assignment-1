@@ -7,9 +7,8 @@ Bir neçə dəftər və karandaşdan ibarət məhsulların qiymətini hesablayan
 •	Karandaşın sayı = 5
 •	Karandaşın qiyməti = 0.2 man
 
-Defterin qiymeti:  0.5  azn
-Karandasin qiymeti:  0.2  azn
-12 defter ve 5 karandasin umumi qiymeti:  7.0  azn
+![image](https://github.com/Ramil-Shukurov/Assignment-1/assets/116194891/19f1fb00-e44d-424b-a24a-94b0e94f4c18)
+
 
 Task 2: Zaman
 Dəqiqə ilə verilmiş zamanı saata çevirən proqramı yazın.
